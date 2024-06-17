@@ -1,0 +1,48 @@
+1. Cascading Style Sheets CSS are used to style/beautify our webpages.
+2. A language used to describe the style of a document 
+3. For writing CSS code we need an HTML code first
+4. Inline Styling : <h1 style="color:red">Text</h1>
+5. <style> Tag : <Style>h1{
+    color : red;
+}</style>
+6. External Style Sheet : Writing CSS in a separate document & linking it with HTML file
+7. Color Property : Used to set color of foreground(text, button, link)
+8. Color Systems : RGB --> rgb(255, 0, 0)--Red, rgb(0, 255, 0)-->  green, rgb(0, 0, 255)--> blue
+9. Hexadecimal Color System -->Red - 00-ff(ff, 00, 00), Green - 00-ff(00, ff, 00), Blue - 00-ff(00, 00, ff)
+10. #ff0000-red, #00ff00-green, #0000ff-blue
+11. In CSS whatever is written at the last has the higher priority. 
+12. Selectors::
+i) Universal Selector : *{} -- set to the whole document 
+ii) Element Selector :: h1{}, p{}, button{}..
+iii) Id Selector : any unique name...#myid
+iv) .myclass{} : Class selector: If we want to set same color to multiple elements use this. 
+13. Use class in order to give same color to multiple elements...giving same ID to multiple elements is WRONG
+14. Text Properties:: text-align : left/right/center
+15. Text align: works according to parents position
+16. Text Decoration: underline, overline, text-through
+17. Text Properties:: font-weight : normal/bold/bolder/lighter.....100-900....400(bold)..>400 bolder
+18. Font-family - different fonts available..adding font style with commagives first priority to the first font if that font is not available on a particular browser then next in the line font is used.
+19. Units : size..Absolute(pixels): 96px = 1 inch..font-size :2px
+20. line-height : decides height of text(the height in which all the text should be adjusted)
+21. Text-transform : uppercase/lowercse/capitalize/none
+22. height, width 
+23. Border style(solid/dotted/dashed), width, color
+24. Border Shorthand : short form for writing border properties
+25. Border-radius : default it is sharp we can make the edges round
+26. Padding : Space between border and and content
+27. Padding Shorthand : short form for writing padding properties
+28. Margin : Area between two boxes
+29. Margin Shorthand : short form for writing margin properties
+30. Display Property : inline/block/inline-block/none
+31. Visibility : hidden 
+32. Difference between display:none and visibility:hidden....D:N will not reserve a space for the removed element but V:N reserves a blank space for the hodden item
+33. Alpha Channel(0-1) : decides opacity(how much the color will be visible)-RGBA(255,0,0,0.5)
+34. Relative units : %, em, rem(root em)
+35. 1em = relative to font size of parent
+36. Vh: Viewport height(relative to height of Browser) - part of browser which is visible to us
+37. Position: static/relative/absolute/fixed
+38. Top, right ,left, bottom doesn't work with static
+39. z-index : decides the overlapping condition(what will come under , what will come over)
+40. Background Size - Cover/Contain/auto
+41. FlexBox : 1D layout method for arranging items in rows and columns
+42. Flexbox Direction : row, column, row-reserve, column-reserve

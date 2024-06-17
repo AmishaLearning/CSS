@@ -1,0 +1,22 @@
+*{
+    color: pink;
+}
+/* h1{
+    color : green
+} */
+button{
+    color : brown
+}
+/* CSS according to heading name */
+#headingOne{
+    color: yellow;
+}
+#headingTwo{
+    color :chocolate
+}
+/* #headingThree{
+    color:blueviolet
+} */
+.MyClass{
+    color:chartreuse
+}
